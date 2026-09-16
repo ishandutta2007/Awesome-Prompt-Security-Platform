@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Prompt-Security-Platform?style=social" alt="GitHub Stars" /> <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Prompt-Security-Platform" alt="License" /> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Prompt-Security-Platform?style=social" alt="GitHub_Stars" /> <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Prompt-Security-Platform" alt="License" /> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 ## 🚀 Top Prompt Security & AI Guardrails Platform Ecosystem 🛡️
@@ -57,36 +57,36 @@ Below is the curated comparative matrix of commercial enterprise SaaS solutions,
 
 ## Open-Source GitHub Projects 🔓
 
-Open-source LLM security tools offer developer-friendly, programmable guardrails, scanners, and automated red-teaming frameworks. Listed below sorted by **GitHub Stars (descending)**:
+Open-source LLM security tools offer developer-friendly, programmable guardrails, scanners, and automated red-teaming frameworks. Listed below sorted by **GitHub_Stars (descending)**:
 
-- **[Promptfoo](https://github.com/promptfoo/promptfoo)** [![GitHub stars](https://img.shields.io/github/stars/promptfoo/promptfoo?style=social&color=white)](https://github.com/promptfoo/promptfoo/stargazers)  
+- **[Promptfoo](https://github.com/promptfoo/promptfoo)** [![GitHub_Stars](https://img.shields.io/github/stars/promptfoo/promptfoo?style=social&color=white)](https://github.com/promptfoo/promptfoo/stargazers)  
   🛠️ Popular CLI and library for evaluating LLM outputs, red-teaming prompts, and testing RAG pipelines against prompt injection, jailbreaks, and PII leaks.
 
-- **[Presidio](https://github.com/microsoft/presidio)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/presidio?style=social&color=white)](https://github.com/microsoft/presidio/stargazers)  
+- **[Presidio](https://github.com/microsoft/presidio)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/presidio?style=social&color=white)](https://github.com/microsoft/presidio/stargazers)  
   🔒 Microsoft's open-source PII detection and anonymization SDK for sanitizing prompt inputs and LLM outputs.
 
-- **[Garak](https://github.com/leondz/garak)** [![GitHub stars](https://img.shields.io/github/stars/leondz/garak?style=social&color=white)](https://github.com/leondz/garak/stargazers)  
+- **[Garak](https://github.com/leondz/garak)** [![GitHub_Stars](https://img.shields.io/github/stars/leondz/garak?style=social&color=white)](https://github.com/leondz/garak/stargazers)  
   🎯 Generative AI Red-teaming & Vulnerability Scanner for probing LLMs for jailbreaks, prompt injections, and hallucinations.
 
-- **[Guardrails AI](https://github.com/guardrails-ai/guardrails)** [![GitHub stars](https://img.shields.io/github/stars/guardrails-ai/guardrails?style=social&color=white)](https://github.com/guardrails-ai/guardrails/stargazers)  
+- **[Guardrails AI](https://github.com/guardrails-ai/guardrails)** [![GitHub_Stars](https://img.shields.io/github/stars/guardrails-ai/guardrails?style=social&color=white)](https://github.com/guardrails-ai/guardrails/stargazers)  
   🛡️ Python framework for adding structured output validation, guardrails, and automatic corrective retries to LLMs.
 
-- **[NVIDIA NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** [![GitHub stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails?style=social&color=white)](https://github.com/NVIDIA/NeMo-Guardrails/stargazers)  
+- **[NVIDIA NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** [![GitHub_Stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails?style=social&color=white)](https://github.com/NVIDIA/NeMo-Guardrails/stargazers)  
   🌿 NVIDIA's toolkit for adding programmable guardrails (dialog, safety, topical control, and injection prevention) to LLM applications.
 
-- **[PyRIT](https://github.com/Azure/PyRIT)** [![GitHub stars](https://img.shields.io/github/stars/Azure/PyRIT?style=social&color=white)](https://github.com/Azure/PyRIT/stargazers)  
+- **[PyRIT](https://github.com/Azure/PyRIT)** [![GitHub_Stars](https://img.shields.io/github/stars/Azure/PyRIT?style=social&color=white)](https://github.com/Azure/PyRIT/stargazers)  
   ⚡ Microsoft's Python Risk Identification Tool for AI, facilitating automated red-teaming and multi-turn attack simulations on GenAI platforms.
 
-- **[LLM Guard](https://github.com/protectai/llm-guard)** [![GitHub stars](https://img.shields.io/github/stars/protectai/llm-guard?style=social&color=white)](https://github.com/protectai/llm-guard/stargazers)  
+- **[LLM Guard](https://github.com/protectai/llm-guard)** [![GitHub_Stars](https://img.shields.io/github/stars/protectai/llm-guard?style=social&color=white)](https://github.com/protectai/llm-guard/stargazers)  
   ⚙️ Comprehensive security toolkit with lightweight scanners for prompt injection, toxicity, sensitive data, and hallucination detection.
 
-- **[DeepTeam](https://github.com/confident-ai/deepteam)** [![GitHub stars](https://img.shields.io/github/stars/confident-ai/deepteam?style=social&color=white)](https://github.com/confident-ai/deepteam/stargazers)  
+- **[DeepTeam](https://github.com/confident-ai/deepteam)** [![GitHub_Stars](https://img.shields.io/github/stars/confident-ai/deepteam?style=social&color=white)](https://github.com/confident-ai/deepteam/stargazers)  
   🧪 Open-source LLM red teaming framework designed for testing RAG systems, agents, and custom guardrails locally.
 
-- **[Rebuff](https://github.com/protectai/rebuff)** [![GitHub stars](https://img.shields.io/github/stars/protectai/rebuff?style=social&color=white)](https://github.com/protectai/rebuff/stargazers)  
+- **[Rebuff](https://github.com/protectai/rebuff)** [![GitHub_Stars](https://img.shields.io/github/stars/protectai/rebuff?style=social&color=white)](https://github.com/protectai/rebuff/stargazers)  
   🧱 Multi-layered prompt injection detection architecture utilizing heuristics, LLM filtering, and canary tokens.
 
-- **[Vigil](https://github.com/deadbits/vigil-llm)** [![GitHub stars](https://img.shields.io/github/stars/deadbits/vigil-llm?style=social&color=white)](https://github.com/deadbits/vigil-llm/stargazers)  
+- **[Vigil](https://github.com/deadbits/vigil-llm)** [![GitHub_Stars](https://img.shields.io/github/stars/deadbits/vigil-llm?style=social&color=white)](https://github.com/deadbits/vigil-llm/stargazers)  
   🔍 Python security scanner for detecting prompt injections, jailbreaks, and toxic content in prompts using vector search and YARA signatures.
 
 ---
