@@ -1,213 +1,126 @@
-# Awesome-Prompt-Security-Platform
+# Awesome Prompt Security Platform 🛡️
 
-## Top Prompt Security Platforms Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Prompt Security Platform Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Prompt-Security-Platform?style=social" alt="GitHub Stars" /> <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Prompt-Security-Platform" alt="License" /> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+## 🚀 Top Prompt Security & AI Guardrails Platform Ecosystem 🛡️
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 
-*Focused on Prompt Injection Defense, Jailbreak Prevention, LLM Guardrails, Input/Output Scanning & AI Runtime Security*
+*Focused on Prompt Injection Defense, Jailbreak Prevention, LLM Guardrails, Input/Output Scanning, AI Red Teaming & AI Runtime Security*
 
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Prompt Security**. These tools detect and block prompt injection, jailbreaks, data leakage, toxic content, and other risks in LLM inputs and outputs, often acting as runtime guardrails or AI firewalls.
-
-
-
-**Examples** include Prompt Security, Lakera, Aporia, Protect AI, HiddenLayer, CalypsoAI, Noma Security, Pangea, Zenity, and LayerX AI Security (the category leaders).
-
-
-
-**Open-source emphasis**: Prompt and LLM security has strong open-source options. **NVIDIA NeMo Guardrails**, **LLM Guard**, **Guardrails AI**, and related projects provide programmable and scanner-based protection. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[Prompt Security](https://www.prompt.security/)**  
-
-  Platform focused on securing generative AI applications against prompt-based attacks and related risks.
-
-
-
-- **[Lakera](https://www.lakera.ai/)**  
-
-  Leading prompt injection and jailbreak defense platform (Lakera Guard) with strong runtime protection and threat intelligence.
-
-
-
-- **[Aporia](https://www.aporia.com/)**  
-
-  ML observability and guardrails platform that includes runtime protection and monitoring for AI models.
-
-
-
-- **[Protect AI](https://www.protectai.com/)**  
-
-  MLSecOps platform (now part of broader security ecosystems) offering model scanning, runtime guardrails, and AI supply-chain security.
-
-
-
-- **[HiddenLayer](https://hiddenlayer.com/)**  
-
-  AI security platform focused on model protection, adversarial threats, and runtime defenses for machine learning systems.
-
-
-
-- **[CalypsoAI](https://www.calypsoai.com/)**  
-
-  AI security and control platform providing guardrails and governance for enterprise generative AI deployments.
-
-
-
-- **[Noma Security](https://www.noma.security/)**  
-
-  AI security solutions addressing risks in generative AI applications and models.
-
-
-
-- **[Pangea](https://pangea.cloud/)**  
-
-  Security platform that includes AI and prompt-related security services among its broader offerings.
-
-
-
-- **[Zenity](https://zenity.io/)**  
-
-  Security platform focused on low-code/no-code and AI application risks, including governance and protection.
-
-
-
-- **[LayerX AI Security](https://layerxsecurity.com/)**  
-
-  Browser and AI security solutions that extend into generative AI usage and prompt-related controls.
-
-
-
-## Open-Source GitHub Projects
-
-- **[NVIDIA NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)**  
-
-  Open-source toolkit for adding programmable guardrails (input, dialog, retrieval, execution, output) to LLM applications. Supports jailbreak detection, topic control, and policy enforcement.
-
-
-
-- **[LLM Guard](https://github.com/protectai/llm-guard)**  
-
-  Open-source LLM security toolkit with multiple input and output scanners for prompt injection, PII, toxicity, and other risks. Can run as a self-hosted API.
-
-
-
-- **[Guardrails AI](https://github.com/guardrails-ai/guardrails)**  
-
-  Open-source framework for adding structured validation, guardrails, and corrective actions around LLM outputs.
-
-
-
-- **[Rebuff and related prompt injection detectors](https://github.com/)**  
-
-  Open projects focused specifically on detecting and mitigating prompt injection attacks.
-
-
-
-- **[Llama Guard and safety model open releases](https://github.com/)**  
-
-  Open safety classifiers and models that can be used as components in prompt/output filtering pipelines.
-
-
-
-- **[Garak and red-teaming open tools](https://github.com/)**  
-
-  Open LLM vulnerability scanners and red-teaming frameworks useful for testing prompt security before production.
-
-
-
-- **[Presidio and PII detection open libraries](https://github.com/microsoft/presidio)**  
-
-  Open tools for detecting and anonymizing personally identifiable information in prompts and responses.
-
-
-
-- **[Custom scanner and policy open frameworks](https://github.com/)**  
-
-  Community libraries for building regex-, ML-, or rule-based scanners for LLM traffic.
-
-
-
-- **[AI firewall and proxy open prototypes](https://github.com/)**  
-
-  Experimental open proxies that sit in front of LLM APIs to enforce security policies.
-
-
-
-- **[Evaluation and benchmark open datasets](https://github.com/)**  
-
-  Public datasets and harnesses for measuring prompt injection and jailbreak detection performance.
-
-
-
-### Additional Strong Open-Source Options
-
-- Starting with **NeMo Guardrails** when you need programmable, dialog-aware control over LLM behavior.
-
-- Using **LLM Guard** for practical, scanner-based input/output filtering that can be self-hosted.
-
-- Combining open safety models (Llama Guard, etc.) with custom logic for layered defense.
-
-- Running open red-teaming tools (Garak and similar) to continuously test applications.
-
-- Accepting that enterprise-scale threat intelligence, ultra-low-latency managed APIs, and comprehensive MLSecOps platforms still favor commercial solutions (Lakera, Protect AI, HiddenLayer, Aporia, etc.).
-
-- Deploying open guardrails in development and lower-risk environments while evaluating commercial options for production critical systems.
-
-
-
-**Frameworks for building custom systems**: Intercept LLM calls with an open guardrails layer (NeMo Guardrails or LLM Guard) → scan inputs for injection/jailbreak/PII → apply dialog or topic rails → scan outputs before returning to users → log and monitor decisions. This provides a fully open runtime protection stack. Commercial platforms remain the practical choice when teams need managed services, continuous threat updates, and enterprise support.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Prompt security tools reduce but do not eliminate risks from prompt injection, jailbreaks, and data leakage. No guardrail is perfect. Open-source and commercial solutions require proper configuration, testing, monitoring, and defense-in-depth. This list is not security or compliance advice.
-
-
+**Last updated: September 2026** 📅
 
 ---
 
-**Made for AI engineers, security teams, and platform owners who need safer LLM applications.**
+### 📌 Overview & Market Insights
 
-Let's keep generative AI protected, observable, and as open as practical.
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Prompt Security** and **Generative AI Defense**. These tools detect and block prompt injection, jailbreaks, data leakage, toxic content, and other risks in LLM inputs and outputs, acting as runtime guardrails or AI firewalls.
+
+> 💡 **Sector Market Size & Dynamics**: The global AI Security & LLM Guardrails market is estimated at **$1.8B – $2.5B in 2026** and growing rapidly at over 35% CAGR as enterprise GenAI adoption explodes. The sector is currently **moderately fragmented**, featuring a mix of enterprise cybersecurity giants acquiring early leaders (e.g. Protect AI acquired by Palo Alto Networks, LayerX acquired by Akamai, Aporia acquired by Coralogix) and specialized high-growth SaaS scale-ups (Lakera, Pangea, Prompt Security).
+
+---
+
+## 📑 Table of Contents
+- [SaaS/Hosted Platforms ☁️](#saashosted-platforms-️)
+- [Open-Source GitHub Projects 🔓](#open-source-github-projects-)
+- [Support & Community 💖](#support--community-)
+- [How to Contribute 🤝](#how-to-contribute-)
+- [📈 Star History](#-star-history)
+- [Disclaimer ⚠️](#disclaimer-️)
+
+---
+
+## SaaS/Hosted Platforms ☁️
+
+Below is the curated comparative matrix of commercial enterprise SaaS solutions, ranked by estimated company scale, valuation, and market footprint (descending).
+
+| Platform | Description | Estimated Scale / Valuation | Starting Tier Price | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Protect AI](https://www.protectai.com/)** | Enterprise MLSecOps platform offering model scanning, runtime guardrails, and AI supply-chain security (acquired by Palo Alto Networks). | **~$500M+** (Acquired by Palo Alto Networks / Parent Cap $90B+) | Enterprise Custom Pricing (Sales-gated quote) | Request a Demo (No self-serve free trial) |
+| **[LayerX AI Security](https://layerxsecurity.com/)** | Browser and Enterprise AI security solutions protecting LLM interactions (acquired by Akamai). | **~$200M+** (Acquired by Akamai Technologies / Parent Cap $15B+) | Enterprise Custom Pricing (Sales-gated quote) | Request a Demo / Enterprise Pilot (No self-serve free trial) |
+| **[Aporia](https://www.aporia.com/)** | ML observability and guardrails platform providing runtime protection for AI applications (acquired by Coralogix). | **~$100M+** (Acquired by Coralogix / $50M+ raised) | Community Tier: $0/month | Free forever up to 1,000,000 predictions/month (up to 3 team members) |
+| **[Lakera](https://www.lakera.ai/)** | Leading prompt injection and jailbreak defense platform (Lakera Guard) powered by continuous threat intelligence. | **~$60M – $100M** ($20M+ Series A funding) | Community Tier: $0/month | Free forever up to 10,000 requests/month (8k token limit) |
+| **[HiddenLayer](https://hiddenlayer.com/)** | AI security platform focused on model protection, adversarial threat detection, and ML detection/response. | **~$50M – $100M** ($50M+ Series A funding) | Enterprise Custom Pricing (Sales-gated quote) | Request a Demo (No self-serve free trial) |
+| **[Pangea](https://pangea.cloud/)** | Comprehensive Security API platform providing modular AI Guardrails, Sanitization, and PII protection. | **~$40M – $80M** ($25M+ Series A funding) | Pay-As-You-Go ($0/month base) | $5 free monthly credit (Developer Free Tier) |
+| **[CalypsoAI](https://www.calypsoai.com/)** | Enterprise AI security & governance platform providing guardrails and vulnerability scanning. | **~$40M – $70M** ($23M+ funding) | Enterprise Custom Pricing (Sales-gated quote) | Request a Demo (No self-serve free trial) |
+| **[Zenity](https://zenity.io/)** | Security platform focused on low-code/no-code agents and enterprise AI application governance. | **~$30M – $60M** ($16.5M+ Series A funding) | Enterprise Custom Pricing (Sales-gated quote) | Request a Demo / Enterprise POC (No self-serve free trial) |
+| **[Prompt Security](https://www.prompt.security/)** | Specialized platform protecting enterprise GenAI applications against prompt injection and data leaks. | **~$25M – $50M** ($18M+ Series A funding) | Enterprise Custom Pricing (Sales-gated quote) | Request a Demo (No self-serve free trial) |
+| **[Noma Security](https://www.noma.security/)** | AI Application Security Platform focused on lifecycle security for LLM applications and data. | **~$20M – $40M** ($12M+ Seed funding) | Enterprise Custom Pricing (Sales-gated quote) | Request a Demo (No self-serve free trial) |
+
+---
+
+## Open-Source GitHub Projects 🔓
+
+Open-source LLM security tools offer developer-friendly, programmable guardrails, scanners, and automated red-teaming frameworks. Listed below sorted by **GitHub Stars (descending)**:
+
+- **[Promptfoo](https://github.com/promptfoo/promptfoo)** [![GitHub stars](https://img.shields.io/github/stars/promptfoo/promptfoo?style=social&color=white)](https://github.com/promptfoo/promptfoo/stargazers)  
+  🛠️ Popular CLI and library for evaluating LLM outputs, red-teaming prompts, and testing RAG pipelines against prompt injection, jailbreaks, and PII leaks.
+
+- **[Presidio](https://github.com/microsoft/presidio)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/presidio?style=social&color=white)](https://github.com/microsoft/presidio/stargazers)  
+  🔒 Microsoft's open-source PII detection and anonymization SDK for sanitizing prompt inputs and LLM outputs.
+
+- **[Garak](https://github.com/leondz/garak)** [![GitHub stars](https://img.shields.io/github/stars/leondz/garak?style=social&color=white)](https://github.com/leondz/garak/stargazers)  
+  🎯 Generative AI Red-teaming & Vulnerability Scanner for probing LLMs for jailbreaks, prompt injections, and hallucinations.
+
+- **[Guardrails AI](https://github.com/guardrails-ai/guardrails)** [![GitHub stars](https://img.shields.io/github/stars/guardrails-ai/guardrails?style=social&color=white)](https://github.com/guardrails-ai/guardrails/stargazers)  
+  🛡️ Python framework for adding structured output validation, guardrails, and automatic corrective retries to LLMs.
+
+- **[NVIDIA NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** [![GitHub stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails?style=social&color=white)](https://github.com/NVIDIA/NeMo-Guardrails/stargazers)  
+  🌿 NVIDIA's toolkit for adding programmable guardrails (dialog, safety, topical control, and injection prevention) to LLM applications.
+
+- **[PyRIT](https://github.com/Azure/PyRIT)** [![GitHub stars](https://img.shields.io/github/stars/Azure/PyRIT?style=social&color=white)](https://github.com/Azure/PyRIT/stargazers)  
+  ⚡ Microsoft's Python Risk Identification Tool for AI, facilitating automated red-teaming and multi-turn attack simulations on GenAI platforms.
+
+- **[LLM Guard](https://github.com/protectai/llm-guard)** [![GitHub stars](https://img.shields.io/github/stars/protectai/llm-guard?style=social&color=white)](https://github.com/protectai/llm-guard/stargazers)  
+  ⚙️ Comprehensive security toolkit with lightweight scanners for prompt injection, toxicity, sensitive data, and hallucination detection.
+
+- **[DeepTeam](https://github.com/confident-ai/deepteam)** [![GitHub stars](https://img.shields.io/github/stars/confident-ai/deepteam?style=social&color=white)](https://github.com/confident-ai/deepteam/stargazers)  
+  🧪 Open-source LLM red teaming framework designed for testing RAG systems, agents, and custom guardrails locally.
+
+- **[Rebuff](https://github.com/protectai/rebuff)** [![GitHub stars](https://img.shields.io/github/stars/protectai/rebuff?style=social&color=white)](https://github.com/protectai/rebuff/stargazers)  
+  🧱 Multi-layered prompt injection detection architecture utilizing heuristics, LLM filtering, and canary tokens.
+
+- **[Vigil](https://github.com/deadbits/vigil-llm)** [![GitHub stars](https://img.shields.io/github/stars/deadbits/vigil-llm?style=social&color=white)](https://github.com/deadbits/vigil-llm/stargazers)  
+  🔍 Python security scanner for detecting prompt injections, jailbreaks, and toxic content in prompts using vector search and YARA signatures.
+
+---
+
+## 💖 Support & Community
+
+If you find this repository valuable for your AI security research or enterprise deployment, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🔀 **Fork & Contribute** your favorite security tools via Pull Requests.
+- 📢 **Share with your network** on X/Twitter, LinkedIn, or Reddit.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance at [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+
+Thank you for helping build a safer Generative AI ecosystem! 🙏
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork the repository.
+2. Add/edit entries in `README.md` (following the existing table or list format).
+3. Ensure tools are relevant to **Prompt Security**, **LLM Guardrails**, or **AI Runtime Protection**.
+4. Submit a Pull Request with a descriptive title.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Prompt-Security-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Prompt-Security-Platform&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an official endorsement.
+- Prompt security tools reduce but do not completely eliminate risks from prompt injection, jailbreaks, and data leakage. No guardrail system is 100% foolproof.
+- Always apply defense-in-depth principles, robust continuous evaluation, and least-privilege API design.
